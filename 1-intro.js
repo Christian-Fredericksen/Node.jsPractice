@@ -1,4 +1,4 @@
-const amount = 20;
+const amount = 3;
 if(amount < 10){
     console.log("The amount is less than 10")
 }else if(amount == 10){
