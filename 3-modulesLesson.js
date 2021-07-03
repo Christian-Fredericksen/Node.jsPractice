@@ -13,13 +13,13 @@
 
 //*********************************************
 //*********************************************  
- const secret = 'SUPER SECRET'           
- const john = 'John'                     
- const peter = 'Peter'                   
-                                         
- const sayhi = (name) => {               
-     console.log(`Hello there, ${name}!`)
- }                                       
+// const secret = 'SUPER SECRET'           
+// const john = 'John'                     
+// const peter = 'Peter'                   
+//                                         
+// const sayHi = (name) => {               
+//     console.log(`Hello there, ${name}!`)
+// }                                       
 //*********************************************
 //*********************************************
 
@@ -49,10 +49,9 @@ console.log(names) // this will return a reference to the names module and how i
 // this modulesLesson file now has access to the minimum data we want to share from the
 // '4-names.js' file. and the 'secret' variable is safely stored and protected.
 
-const funkshun = require('./5-functions')
-console.log(funkshun)
-// sayhi('Susan')
-// sayhi(peter)
-// sayhi(john)
+const sayHi = require('./5-functions')
+ sayHi('Susan')
+ sayHi(names.peter)
+ sayHi(names.john)
 
 
