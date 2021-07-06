@@ -42,16 +42,21 @@
 
 const names = require('./4-names') // we set a var equal to the require() passing in the path
 // of the export{} obj we want to use as an argument.
-console.log(names) // this will return a reference to the names module and how it's connected to
+// console.log(names) // this will return a reference to the names module and how it's connected to
 // this modulesLesson file. But most importantly it returns the export{} obj we shared.
 // run 'node 3-modulesLesson.js' in the command line and see for yourself.
 
 // this modulesLesson file now has access to the minimum data we want to share from the
 // '4-names.js' file. and the 'secret' variable is safely stored and protected.
 
+
+// const data = require('./6-alternateExport')
+// console.log(data)
 const sayHi = require('./5-functions')
  sayHi('Susan')
  sayHi(names.peter)
  sayHi(names.john)
 
+ // an alternative way of exporting data is called "exporting as you go". open up the
+ // '6-alternativeExport.js' module/file to see what that looks like.
 
