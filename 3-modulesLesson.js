@@ -60,3 +60,11 @@ const sayHi = require('./5-functions')
  // an alternative way of exporting data is called "exporting as you go". open up the
  // '6-alternativeExport.js' module/file to see what that looks like.
 
+              // CONTINUITY BREAK //
+              // CONTINUITY BREAK //
+              // CONTINUITY BREAK //
+
+// now if we comment back in lines 53 & 54 and run 'node <this module>' You should see the console log
+// returns everything just as we exported it.
+
+
