@@ -8,7 +8,7 @@ const peter = 'Peter'
 
 console.log(module)
 
-// produces this '4-names.js' Module{} obj(ect). in this Module{} obj are several
+// produces this '4-names.js' Module{} object. in this Module{} obj are several
 // properties including an exports{} obj. CommonJS syntax says that any info 
 // included in the exports{} obj will be available throughout the app. Remember
 // we're only sharing the info we want to.
@@ -20,5 +20,4 @@ console.log(module)
 module.exports = { john, peter }
 
 // we now have the exports{} obj in this '4-names.js' Module{} ready to share ONLY the data we want.
-// go back to '3-modulesLesson.js' where we left off
-// to learn how the app can receive this export{} obj.
+// go to '5-functions.js' and notice how we export the function.
