@@ -1,4 +1,5 @@
 const amount = 3;
+
 if(amount < 10){
     console.log("The amount is less than 10")
 }else if(amount == 10){
@@ -6,4 +7,5 @@ if(amount < 10){
 }else {
     console.log("The amount is more than 10")
 }
+
 console.log("This is my first app")
