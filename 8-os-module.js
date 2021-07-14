@@ -32,5 +32,5 @@ console.log(currentOS)      // run 'node 8-os-module' and we get all the previou
 
 // here we have explored, a little bit, the OS Module that comes built into node.js. this is just
 // scratching the surface of what we can do with this module to interact with the operating system.
-// let's move on and see how node.js let's interact with the file system. Something we can't do with 
-// JavaScript in the browser. 
+// let's move on and see how node.js allows us to interact with the file system. Something we can't
+// do with JavaScript in the browser. 
