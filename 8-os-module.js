@@ -5,8 +5,9 @@
 // with the operating system and the server.
 // the general set up to use these built in modules looks something like this:
 
-const os = require('os')  // set some var equal to the module. because it's built in we DO NOT
-                          // use the './'directory notation.
+const os = require('os')  // remember our global variable require()? It's a function to use modules.
+                          // set a var equal to "require('module_name')". because it's built in we
+                          // DO NOT use the './'directory notation.
                           // this gives us use of 'os.builtInFunctions()' For example:
 
 // we can get info about the user:
@@ -22,10 +23,10 @@ console.log(`The System Uptime is ${os.uptime()} seconds.`) // let's use templat
                 
 // wanna try to invoke a bunch of stuff in an object?:
 const currentOS = {         // <---here we set a var and create an {} that contains a few
-    name: os.type(),        // <---(properties:) set to ( module.function() )
-    release: os.release(),  // <---(properties:) set to ( module.function() )
-    totalMem: os.totalmem(),// <---(properties:) set to ( module.function() )
-    freeMem: os.freemem(),  // <---(properties:) set to ( module.function() )
+    name: os.type(),        // <---( properties: ) set to ( module.function() )
+    release: os.release(),  // <---( properties: ) set to ( module.function() )
+    totalMem: os.totalmem(),// <---( properties: ) set to ( module.function() )
+    freeMem: os.freemem(),  // <---( properties: ) set to ( module.function() )
 }
 console.log(currentOS)      // run 'node 8-os-module' and we get all the previous data and
                             // the object we just created.
